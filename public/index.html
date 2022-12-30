@@ -1,0 +1,351 @@
+<!doctype html>
+<html class="scroll-smooth" lang="es">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KPWJ4KQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="assets/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <title>Recobatt | Gestión de Residuos</title>
+
+    <!-- CSS PERSONALIZADO -->
+    <link rel="stylesheet" href="assets/css/style.min.css ">
+    <!--<link rel="stylesheet" href="assets/css/style.css ">-->
+
+    <!-- INFORMACIÓN PARA EL SEO -->
+    <meta http-equiv="content-Type" content="text/html; ISO-8859-1">
+    <meta name="DC.Language" scheme="RFC1766" content="Spanish">
+    <meta name="author" content="Indaga">
+    <meta name="reply-to" content="edgardo@indaga.me">
+    <link rev="made" href="mailto:edgardo@indaga.me">
+    <meta name="description" content="Gestión y reciclaje de residuos electrónicos en la Región de Los Lagos"/>
+    <meta name="keywords" content="reciclaje, gestión de residuos, residuos electrónicos, residuos eléctricos, RAEE, ley REP, Los Lagos, Puerto Montt, Osorno, Puerto Varas,residuos complejos">
+    <meta name="Resource-type" content="Document">
+    <meta name="DateCreated" content="Sat, 28 December 2022 00:00:00 GMT-4">
+    <meta name="Revisit-after" content="4 days">
+    <meta name="robots" content="ALL">
+
+</head>
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPWJ4KQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- HEADER -->
+
+    <header class="bg-transparent 2xl:h-[150px] z-[1000]" id="header">
+
+        <!-- HEADER MOBILE -->
+
+        <div class="visible md:hidden">
+
+            <!-- Navbar start -->
+            <div class="container mx-auto flex flex-row bg-transparent">
+                <div class="w-9/12">
+                    <div class="bg-white w-[140px] pt-[10px] pb-[15px] pl-[20px] pr-[45px] rounded-br-[120px]">
+                        <a href="#" class="inline bg-white"><img src="assets/img/logo-recobatt-negro.svg" alt="Logo" class="w-[90px]"></a>
+                    </div>
+                </div>
+                <div class="w-3/12 justify-end">
+                    <nav id="navbar" class="fixed flex w-full flex-row bg-transparent px-4 z-50">
+                        <button id="btnSidebarToggler" type="button" class="text-2xl text-black bg-white hover:text-gray-200 h-[50px] w-[50px] pl-[9px] mt-[20px] rounded-[50%] ">
+                            <svg id="navClosed" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                 stroke="currentColor" class="h-8 w-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                            <svg id="navOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                 stroke="currentColor" class="hidden h-8 w-8" onclick="openNav()">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Navbar end -->
+
+            <!-- Sidebar start-->
+            <div id="containerSidebar" class="z-40">
+                <div class="navbar-menu relative z-40">
+
+                    <nav id="sidebar" class="fixed left-0 bottom-0 flex w-full -translate-x-full flex-col overflow-y-auto bg-[#FDB62B] pt-6 pb-8 sm:max-w-xs lg:w-80 mt-[-90px]">
+                        <img src="assets/img/logo-recobatt-blanco.svg" alt="Logo" class="w-[100px] pt-[10px] pl-[20px]">
+                        <!-- one category / navigation group -->
+                        <div class="pt-[40px] px-4 pb-6 justify-center items-center flex">
+                            <ul class="mb-8">
+                                <li>
+                                    <a onclick="closeNav()" class="font-avenir text-[14px] text-white font-semibold flex py-3 pl-3 mt-[20px]"
+                                       href="#nosmueve">QUÉ NOS MUEVE
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="closeNav()" class="font-avenir text-[14px] text-white font-semibold flex py-3 pl-5 mt-[20px]"
+                                       href="#hacemos">QUÉ HACEMOS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="closeNav()" class="font-avenir text-[14px] text-white font-semibold flex py-3 pl-[34px] mt-[20px]"
+                                       href="#servicios">SERVICIOS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="closeNav()" class="font-avenir text-[14px] text-white font-semibold flex bg-[#262626] mt-[20px] ml-[8px] py-2 pl-[24px] rounded-3xl"
+                                       href="#footer">CONTACTO
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="mx-auto lg:ml-80"></div>
+            </div>
+
+            <!-- Sidebar end -->
+        </div>
+
+        <!-- HEADER DESKTOP -->
+
+        <div class="container mx-auto flex flex-row invisible md:visible 2xl:visible content-center">
+            <div class="w-5/12 flex m-auto justify-start">
+                <ul class="list-none inline-flex">
+                    <li class="pr-14"><a href="#nosmueve" class="font-avenir text-[14px] font-semibold tracking-wide hover:text-[#FDB62B]">QUÉ NOS MUEVE</a></li>
+                    <li class="pl-16 pr-16"><a href="#hacemos" class="font-avenir text-[14px] font-semibold tracking-wide hover:text-[#FDB62B]">QUÉ HACEMOS</a></li>
+                </ul>
+            </div>
+            <div class="w-2/12 flex m-auto justify-center align-middle bg-white h-[150px] rounded-br-[120px] rounded-bl-[120px]">
+                <a href="#"><img src="assets/img/logo-recobatt-negro.svg" alt="Logo" class="w-[110px]"></a>
+            </div>
+            <div class="w-5/12 flex m-auto justify-end">
+                <ul class="list-none inline-flex">
+                    <li class="pl-20 pr-20"><a href="#servicios" class="font-avenir text-[14px] font-semibold tracking-wide hover:text-[#FDB62B]">SERVICIOS</a></li>
+                    <li class="pl-20"><a href="#footer" class="font-avenir text-[14px] font-semibold tracking-wide hover:text-[#000000] text-white bg-[#FDB62B] pr-[24px] pl-[24px] pt-[10px] pb-[8px] rounded-3xl">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- IMAGEN CABEZAL -->
+
+    <section id="cabezal" class="bg-mobile md:bg-desktop bg-no-repeat bg-cover bg-bottom md:mt-[-150px] md:h-[1000px] mt-[-245px] h-[1053px]">
+        <div class="container mx-auto">
+            <div class="w-6/12 flex flex-col md:justify-center md:h-[700px] 2xl:h-[1053px] invisible md:visible">
+                <h2 class="font-avenir md:text-[32px] 2xl:text-[36px] md:tracking-[.20em] 2xl:leading-[50px]">GESTIÓN Y RECICLAJE DE </h2>
+                <h1 class="font-avenir md:text-[47px] 2xl:text-[47px] md:font-bold 2xl:leading-[58px] z-20">RESIDUOS ELECTRÓNICOS</h1>
+                <hr class="border-t-[14px] border-[#FDB62B] md:w-[96%] 2xl:w-[95%] md:mt-[-26px] 2xl:mt-[-24px] z-10">
+            </div>
+            <div class="w-full justify-center items-center flex-col visible md:hidden mt-[150px]">
+                <h2 class="font-avenir text-center text-[24px] tracking-[.20em]">GESTIÓN Y <br>RECICLAJE DE</h2>
+                <h1 class="font-avenir text-center font-bold text-[36px] leading-[42px] pt-[20px]">RESIDUOS</h1>
+                <hr class="border-t-[10px] border-[#FDB62B] mt-[-15px] w-[50%] ml-[25%]">
+                <h1 class="font-avenir text-center font-bold text-[36px] leading-[42px] pt-[10px]">ELECTRÓNICOS</h1>
+                <hr class="border-t-[10px] border-[#FDB62B] mt-[-15px] w-[76%] ml-[12%]">
+            </div>
+        </div>
+    </section>
+
+    <!-- QUE NOS MUEVE -->
+
+    <section id="nosmueve" class="bg-white py-[100px]">
+        <div class="container mx-auto">
+            <div class="w-8/12 mx-auto flex flex-col text-center justify-center align-middle place-self-start">
+                <img src="assets/img/icono-quenosmueve.svg" alt="icono-01" class="w-[70%] ml-[15%] md:w-[24%] md:ml-[38%] 2xl:w-[30%] 2xl:ml-[36%]  ">
+                <h1 class="font-avenir font-bold text-[24px] py-[30px] md:text-[30px] 2xl:text-[38px] md:pt-[60px] 2xl:pt-[80px] md:pb-[60px] 2xl:pb-[65px]">¿QUÉ NOS <strong class="text-[#FDB62B]">MUEVE?</strong></h1>
+                <p class="font-avenir text-[#484848] font-light text-[18px] md:text-[20px] 2xl:text-[24px]">Buscamos aportar a <strong>regiones más limpias y responsables</strong> en torno a la gestión<br> de residuos complejos, mediante operaciones que faciliten y promuevan la<br> recuperación, reciclaje y <strong>tratamiento adecuado.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUE NOS MUEVE 2 -->
+
+    <section id="nosmueve-2" class="bg-nos bg-cover bg-center h-[1100px] py-[100px] md:h-[1080px] md:py-[150px]">
+        <div class="container mx-auto flex flex-col md:flex-row">
+            <div class="md:w-5/12 flex px-[10%] md:px-0 md:justify-center md:items-center md:h-[780px]">
+                <p class="font-avenir text-white text-[20px] md:ml-[70px] md:text-[32px] 2xl:text-[32px]">Los Residuos de Aparatos <br>
+                    Eléctricos y Electrónicos (RAEE) <br>
+                    son el tipo de residuo que <br>
+                    <strong class="text-[#FDB62B]">mayor volumen de desechos <br>
+                    está produciendo</strong> en el mundo, <br>
+                    lo que representa una <br>
+                    amenaza para el desarrollo <br>
+                    sostenible.
+                </p>
+            </div>
+            <div class="md:w-2/12 mx-auto text-center justify-center align-middle">
+                <img src="assets/img/icono-enchile.svg" alt="icono-2" class="w-[60%] ml-[20%] py-[40px] md:w-[50%] md:ml-[25%] md:py-0">
+            </div>
+            <div class="md:w-5/12 flex flex-col px-[10%] md:px-0 md:justify-center md:h-[780px] h-auto">
+                <h2 class="font-avenir text-white font-bold text-[20px] md:text-[22px] pb-5">EN CHILE <strong class="text-[#FDB62B]">*</strong></h2>
+                <p class="font-avenir text-white text-[16px] md:text-[20px] md:pb-5"><strong>11,6 kg /por persona</strong> se proyecta serán<br> generados este año.</p>
+                <p class="font-avenir text-white text-[16px] md:text-[20px] md:pb-5"><strong>Tan sólo 3,4% recibe tratamiento adecuado.</strong> <br>El resto termina en vertederos y rellenos <br>sanitarios.</p>
+                <p class="text-[#FDB62B] text-[12px] md:text-[14px] pb-5 md:pb-9">*Fuente: Fundación Chile  / Residuos-E. 2022</p>
+                <h2 class="font-avenir text-white font-bold text-[20px] 2xl:text-[22px] pb-5">LEY <strong class="text-[#FDB62B]">REP</strong></h2>
+                <p class="font-avenir text-white text-[16px] md:text-[20px] pb-9 md:pb-9">Este tipo de residuos ha sido considerado <br>como prioritario en la Ley REP, por lo que <br>las empresas deben empezar a hacerse <br>responsables de su gestión.
+                </p>
+                <a class="text-black bg-[#FDB62B] text-center md:text-[14px] font-light md:w-[250px] md:px-[30px] py-[6px] md:py-[8px] rounded-3xl hover:text-white" href="https://economiacircular.mma.gob.cl/aparatos-electricos-y-electronicos" target="_blank">Conoce más sobre la Ley REP</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUE HACEMOS -->
+
+    <section id="hacemos" class="py-[60px] md:py-[150px]">
+        <div class="container mx-auto">
+            <div class="w-full md:w-6/12 mx-auto flex flex-col text-center justify-center align-middle place-self-start">
+                <img src="assets/img/icono-quehacemos.svg" alt="icono-02" class="w-[50%] ml-[25%] md:w-[30%] md:ml-[35%]">
+                <h1 class="font-avenir font-bold text-[24px] py-[30px] md:text-[30px] 2xl:text-[38px] md:pt-[60px] 2xl:pt-[80px] md:pb-[60px] 2xl:pb-[80px]">¿QUÉ <strong class="text-[#FDB62B]">HACEMOS?</strong></h1>
+            </div>
+        </div>
+        <div class="container mx-auto flex flex-col md:flex-row">
+            <div class="md:w-4/12 mx-auto flex flex-col text-center mb-[20px]">
+                <h1 class="font-avenir font-bold text-[20px] w-[16%] pt-[6px] ml-[42%] md:text-[30px] 2xl:text-[38px] md:pb-[3%] md:pt-[4%] md:w-[20%] md:ml-[40%] rounded-[50%] border-[1px] border-[#FDB62B]">01</h1>
+                <p class="font-avenir text-[#484848] pt-6 2xl:pt-[30px] md:text-[16px] "><strong>Facilitamos la gestión responsable</strong> <br>de residuos eléctricos y electrónicos <br>a empresas y organizaciones.</p>
+            </div>
+            <div class="md:w-4/12 mx-auto flex flex-col text-center mb-[20px]">
+                <h1 class="ont-avenir font-bold text-[20px] w-[16%] pt-[6px] ml-[42%] md:text-[30px] 2xl:text-[38px] md:pb-[3%] md:pt-[4%] md:w-[20%] md:ml-[40%] rounded-[50%] border-[1px] border-[#FDB62B]">02</h1>
+                <p class="font-avenir text-[#484848] pt-6 2xl:pt-[30px] md:text-[16px] "><strong>Gestionamos operativos y <br>campañas de reciclaje de residuos</strong> <br>complejos para su adecuado <br>manejo, reacondicionamiento, <br>reciclaje y/o disposición final.</p>
+            </div>
+            <div class="md:w-4/12 mx-auto flex flex-col text-center mb-[20px]">
+                <h1 class="ont-avenir font-bold text-[20px] w-[16%] pt-[6px] ml-[42%] md:text-[30px] 2xl:text-[38px] md:pb-[3%] md:pt-[4%] md:w-[20%] md:ml-[40%] rounded-[50%] border-[1px] border-[#FDB62B]">03</h1>
+                <p class="font-avenir text-[#484848] pt-6 2xl:pt-[30px] md:text-[16px] ">Promovemos la <strong>recuperación de <br>materiales</strong> reciclables <br>provenientes de e-waste.</p>
+                <img src="assets/img/icono-10.svg" alt="icono-03" class="w-0 md:w-[100px] md:relative md:top-[80px] 2xl:top-[85px] md:left-[60%] 2xl:left-[70%] z-20 invisible md:visible">
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTROS SERVICIOS -->
+
+    <section id="servicios" class="bg-[#F8F8F8] md:pt-[100px] 2xl:pt-[150px] md:pb-[100px] py-[100px]">
+        <img src="assets/img/linea.svg" alt="linea" class="md:absolute w-0 md:w-[80%] md:left-[20%] md:mt-[-240px] 2xl:mt-[-310px] invisible md:visible">
+
+        <div class="container mx-auto flex flex-col md:flex-row">
+            <div class="w-full md:w-6/12 px-[10%] md:px-0 text-center md:text-left">
+                <h1 class="font-avenir font-bold text-[24px] py-[10px] md:text-[30px] 2xl:text-[38px] md:py-0 md:ml-[70px]">NUESTROS <strong class="text-[#FDB62B]">SERVICIOS</strong></h1>
+                <p class="font-avenir bg-[#FFB614] text-[14px] md:text-base py-2 md:px-[20px] md:py-[6px] md:w-[350px] md:ml-[70px]">Gestión y reciclaje de residuos electrónicos</p>
+            </div>
+            <div class="w-full md:w-6/12 px-[10%] md:px-0 text-center md:text-left">
+                <img src="assets/img/icono-11.svg" alt="icono-04" class="ml-[30%] md:ml-0 pt-[50px] md:pt-0 pb-[30px] md:pb-0 w-[40%] md:w-[100px] md:relative md:left-[8%] 2xl:left-[12%] z-20">
+                <h4 class="font-avenir text-[20px] md:text-[20px] font-bold text-[#FFB614] md:relative md:left-[30%] md:top-[-24%] 2xl:top-[-76px] inline">¿PARA QUIÉN?</h4><br>
+                <h5 class="font-avenir md:text-[18px] font-bold md:relative md:left-[30%] md:top-[-24%] 2xl:top-[-76px] inline">Empresas y otras organizaciones. </h5>
+
+                <img src="assets/img/icono-12.svg" alt="icono-05" class="ml-[30%] md:ml-0 pt-[50px] md:pt-0 pb-[30px] md:pb-0 w-[40%] md:w-[100px] md:relative md:left-[-20%] 2xl:left-[-8%] 2xl:top-[1%] z-20">
+                <h4 class="font-avenir text-[20px] md:text-[20px] font-bold md:relative 2xl:left-[10%] md:top-[-90px] 2xl:top-[-86px] inline">¿QUÉ RESIDUOS?</h4><br>
+                <h5 class="font-avenir md:relative 2xl:left-[10%] md:top-[-90px] 2xl:top-[-86px] inline"><strong>E-waste: </strong>equipamiento electrónico dado de baja.</h5><br>
+                <h5 class="font-avenir md:relative 2xl:left-[10%] md:top-[-90px] 2xl:top-[-86px] inline"><strong>Residuos eléctricos y electrónicos.</strong></h5>
+            </div>
+        </div>
+
+        <div class="container mx-auto flex flex-col md:flex-row px-[10%] md:px-0">
+            <img src="assets/img/esquemas-desktop.svg" alt="esquema" class="z-20 md:mt-[-54px] 2xl:mt-[40px] invisible md:visible md:w-[100%] w-0">
+            <img src="assets/img/esquemas-mobile.svg" alt="esquema" class="visible md:hidden py-[30px] 2xl:py-0">
+            <img src="assets/img/esquema-mobile-1.png" alt="Esquemas 2" class="visible md:hidden pb-[30px] 2xl:py-0">
+        </div>
+
+        <div class="container mx-auto md:pt-[100px] px-[10%] md:px-0">
+            <div class="flex text-center justify-center align-middle flex-col md:flex-row">
+                <img src="assets/img/icono-certificados.svg" alt="icono-06" class="w-[26%] ml-[37%] md:ml-0 md:w-[100px] 2xl:w-[130px] md:pr-[40px] 2xl:pr-[60px] ">
+                <h4 class="font-avenir md:text-[18px] pt-[10px] md:pt-[15px] 2xl:pt-[20px]">Trabajamos con recicladores de <strong>RAEE certificados.</strong></h4>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CAMPAÑAS COMUNITARIAS -->
+
+    <section id="comunitarias" class="md:bg-esquemas bg-no-repeat bg-cover bg-center md:h-[750px] 2xl:h-[900px] md:py-[100px] 2xl:py-[150px]">
+        <!-- DESKTOP -->
+        <div class="container mx-auto flex md:flex-row invisible md:visible">
+            <div class="md:w-7/12 flex items-center h-0 md:h-[500px] 2xl:h-[600px] ">
+                <p class="font-avenir text-[#707070] font-light md:text-[24px] 2xl:text-[26px] md:leading-8 2xl:leading-10 md:ml-[70px]">Nuestros clientes aportan al reciclaje y disposición<br>
+                    final responsable de residuos electrónicos domiciliarios<br>
+                    en distintos territorios de la región, al ser patrocinadores<br>
+                    de <strong class="text-[#FDB62B] font-semibold">CAMPAÑAS COMUNITARIAS.</strong></p>
+            </div>
+            <div class="md:w-5/12 flex flex-col justify-center items-center md:h-[500px] 2xl:h-[600px] h-0">
+                <img src="assets/img/campanas.webp" alt="icono-06" class="md:w-[400px] 2xl:w-[500px] z-20">
+            </div>
+        </div>
+
+        <img src="assets/img/linea-2.svg" alt="linea-2" class="md:absolute md:w-[70%] w-0 md:left-[30%] md:mt-[-500px] 2xl:mt-[-650px] mt-0 invisible md:visible">
+
+        <!-- MOBILE -->
+
+        <div class="container mx-auto flex flex-col justify-center items-center visible md:invisible py-[100px] md:h-0">
+            <img src="assets/img/campanas.webp" alt="icono-06" class="w-[300px] md:w-0 z-20">
+            <img src="assets/img/linea-2.svg" alt="linea-2" class="absolute w-[100%] md:w-0 mt-[-260px]">
+            <p class="font-avenir text-[18px] font-light text-[#707070] leading-8 px-[10%] pt-[40px]">
+                Nuestros clientes aportan al reciclaje y disposición<br>
+                final responsable de residuos electrónicos domiciliarios<br>
+                en distintos territorios de la región, al ser patrocinadores<br>
+                de <strong class="text-[#FDB62B] font-bold">CAMPAÑAS COMUNITARIAS.</strong></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="footer" class="bg-[#171717] md:py-[30px] 2xl:py-[60px] ">
+
+        <div class="container mx-auto flex md:flex-row md:h-auto h-0 invisible md:visible">
+            <div class="md:w-5/12 flex m-auto align-middle">
+                <a href="mailto:contacto@recobatt.cl" class="inline md:text-white md:text-[16px]" target="_blank"><img src="assets/img/mail.svg" alt="mail" class="inline md:w-[20px] md:mr-3"> contacto@recobatt.cl</a>
+            </div>
+            <div class="md:w-2/12 flex m-auto justify-center align-middle">
+                <img src="assets/img/logo-recobatt-negativo.svg" alt="Logo Footer" class="md:w-[90px]">
+            </div>
+            <div class="md:w-5/12 flex m-auto justify-end">
+                <a href="https://www.instagram.com/recobatt.cl" class="inline md:text-white md:text-[16px]" target="_blank"><img src="assets/img/instagram.svg" alt="mail" class="inline md:w-[20px] md:mr-3"> @recobatt.cl</a>
+            </div>
+        </div>
+        <!-- FOOTER MOBILE -->
+        <div class="container mx-auto flex flex-col visible md:hidden 2xl:hidden h-auto md:h-0 py-[40px] md:py-0">
+            <img src="assets/img/logo-recobatt-negativo.svg" alt="Logo Footer" class="w-[20%] md:w-0 ml-[40%]">
+            <a href="mailto:contacto@recobatt.cl" class="font-avenir inline text-white text-[16px] ml-[20%] mt-[20px] md:mt-0" target="_blank"><img src="assets/img/mail.svg" alt="mail" class="inline w-[20px] mr-3"> contacto@recobatt.cl</a>
+            <a href="https://www.instagram.com/recobatt.cl" class="font-avenir inline text-white text-[16px] ml-[20%]" target="_blank"><img src="assets/img/instagram.svg" alt="mail" class="inline w-[20px] mr-3"> @recobatt.cl</a>
+        </div>
+
+    </footer>
+
+    <section class="bg-[#0f0f0f] h-[30px] md:h-[40px]">
+        <div class="container flex mx-auto justify-center align-middle items-center h-[30px] md:h-[40px]">
+            <p class="text-white font-avenir text-[12px] md:text-[14px]">Desarrollado por <a href="https://indaga.me" target="_blank" class="text-[#FDB62B] hover:font-semibold">Indaga</a></p>
+        </div>
+    </section>
+
+
+    <!-- JQ FLOWBITE -->
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+    <script src="assets/jq/navbar.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYK224H9V1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-S979B2L79R');
+    </script>
+
+</body>
+</html>
